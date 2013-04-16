@@ -11,28 +11,34 @@ h1 {
 	text-align: center;
 }
 
+h2 {
+	font-family: "Cooper Black";
+	font-size: 40pt;
+	text-align: left;
+}
+
 /***************************************
  * För att få rätt bakgrunds färger
  **************************************/
 
 /* background */
 body{
-	background-color: #FFFF00;
+	background-color: #FFFFFF;
 }
 
 /* column */
 #content, #left, #right, #frame, #footer {
-	background: #FFFF00;
+	background: #BDB76B;
 	}
 	
 /* Front */
 #center, #center-right {
-	background: #FFFF00;
+	background: #F5F5DC;
 	}
 
 /* Spotlight */	
 #banner-right, #banner-left {
-	background-color: #FFFF99;
+	background-color: #FFFFFF;
 }	
 
 /***************************************
@@ -148,7 +154,7 @@ body{
    padding: 0; 
    float: left; 
    width: 100%; 
-   background: #99CC99; 
+   background: #BDB76B; 
    font: 70% Verdana, Helvetica, sans-serif;
 }
 
@@ -160,7 +166,7 @@ body{
     float: left;
     text-decoration: none;
     padding: 0.3em 2em;
-    border: 1px solid #99CC99;
+    border: 1px solid #BDB76B;
 }
     
 .meny a:link{
@@ -176,7 +182,7 @@ body{
 }
 
 .meny a#current{
-    background: #D6EBD6;
+    background: #BDB76B;
     color: #000000;
 }
  
