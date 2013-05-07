@@ -2,7 +2,7 @@
 $server="localhost";
 $user="root";
 $password="";
-$database="demo";
+$database="dtb1";
 
 $link = mysql_connect($server, $user, $password);
 if (!$link) {

@@ -3,50 +3,50 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="sv" lang="sv">    
     <head>
         <meta http-equiv="Content-Type" content="text/html charset=utf-8" />
-        <link rel="stylesheet" title="magnum" type="text/css" href="../CSS/magnum.css" />
+        <link rel="stylesheet" title="EmmasCSS." type="text/css" href="../CSS/EmmasCSS.css" />
 		<link rel="alternate stylesheet" title="none" type="text/css" href="../CSS/empty.css.css" />	  
-        <title>Lek - lärare elev kommunikation!</title>	
+        <title>Skriv namnet på sidan här!</title>	
     </head>
     <body>
         <div id="content">
             <div id="top">
-               <div id="banner-left" >Här ska HTS-logga vara</div>
-               <div id="banner-center" ><h1>LEK   vår skola</h1></div>
-               <div id="banner-right" ><h1>LEK</h1></div>
+               <div id="banner" >
+			   <h2 class="dokument-item-header"> SchoolSoft 2.0 </h2>
+			   </div>
             </div>
             <div id="left">
 					<div class="dokument-item">
-						Nyheter!
+						<div class="meny">
+<ul>
+<p><li><a href="sida1.php">Start</a></li><br></p>
+<p><li><a href="sida2.php">Schema</a></li><br></p>
+<p><li><a href="sida3.php">Matsedel</a></li><br></p>
+<p><li><a href="sida4.php">Meddelanden</a></li><br></p>
+<p><li><a href="sida5.php">Kontaktlistor</a></li><br></p>
+</ul>
+</div>
 					</div>
             </div>
             <div id="center">
                 <div id="info">
+				<h1 class="dokument-item-header"> Välkommen till SchoolSoft 2.0!</h1>
+				<h3 class="info">Dagens schema:</h3>
+</div>
+</div>
+            
 				<h1 class="dokument-item-header"> Här kan du logga in</h1>
-				<p class="info">Fyll i dina uppgifter. Om du är registrerat.</p>
+				<h5 class="info">Fyll i dina uppgifter. Om du är registrerad.</h5>
 				
 				<form action="login.php" method="post">
 Användarnamn: <input type="text" name="myUser"> <br />
 Lösenord: <input type="text" name="myPassword"> <br />
 <input type="submit">
-
-
-</form>
-				
-                </div>
-				
-
-</div>
-            <div id="right">
-					Diverse länkar
-            </div>
+            
 
 			<div id="footer">
-				<p> &copy; 2013 Magnus Kronnäs 
-				</p>
+				<h4> &copy; 2013 Emma Göransson
+				</h4>
 			</div>
         </div>
     </body>
 </html>
-<?php
-   mysql_close($con);
-?>
