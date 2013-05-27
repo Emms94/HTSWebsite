@@ -2,7 +2,7 @@
 <?php
 	include 'connect.php';
 	
-         $query = "SELECT namn FROM inloggning WHERE namn='$_POST[myUser]' AND password='$_POST[myPassword]'";
+         $query = "SELECT namn FROM inloggning WHERE namn='$_POST[myUser]' AND password=md5('$_POST[myPassword]')";
          //echo '<em> ' . $query . ' </em>';
          $result = mysql_query($query);
 		 session_start();
