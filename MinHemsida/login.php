@@ -1,8 +1,9 @@
 ﻿<!-- Kom ihåg att logga in till databasen först! -->
 <?php
 	include 'connect.php';
-	
-         $query = "SELECT namn FROM inloggning WHERE namn='$_POST[myUser]' AND password=md5('$_POST[myPassword]')";
+	//$fjant=md5($_POST['myPassword']);
+	$fjant=$_POST['myPassword'];
+         $query = "SELECT namn FROM inloggning WHERE namn='$_POST[myUser]' AND password ='$fjant'";
          //echo '<em> ' . $query . ' </em>';
          $result = mysql_query($query);
 		 session_start();
